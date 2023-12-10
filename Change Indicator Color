@@ -44,11 +44,28 @@
 
 </selector>
 
-(5) Fifth and final step is go in themes.xml and themes.xml(night) file and paste below codes in your main style:-
+(5) Fifth step is go in themes.xml and themes.xml(night) file and paste below codes in your main style:-
 
 <item name="drawableNavigationItemBackground">@drawable/name_of_your_second_created_drawable_file</item>
 
 
+*FINAL STEP JUST PASTE NAVIAGTION VIEW CODE:-
+
+<com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        style="@style/Widget.Custom.NavigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:animateLayoutChanges="true"
+        android:background="@color/cream_ultra_light"
+        app:headerLayout="@layout/layout_nav_header"
+        app:itemHorizontalPadding="30dp"
+        app:itemIconPadding="10dp"
+        app:itemIconTint="@color/grey"
+        app:itemTextAppearanceActiveBoldEnabled="false"
+        app:itemTextColor="@color/grey"
+        app:menu="@menu/nav_drawer_menu" />
 
 
-
+                        *****
