@@ -59,6 +59,7 @@
         android:layout_gravity="start"
         android:animateLayoutChanges="true"
         android:background="@color/cream_ultra_light"
+        app:drawerLayoutCornerSize="25dp"
         app:headerLayout="@layout/layout_nav_header"
         app:itemHorizontalPadding="30dp"
         app:itemIconPadding="10dp"
